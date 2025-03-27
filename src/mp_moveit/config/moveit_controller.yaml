@@ -1,0 +1,64 @@
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+moveit_simple_controller_manager:
+  controller_names:
+    - arm_controller
+    - gripper_controller
+  
+  arm_controller:
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - joint_1
+      - joint_2
+      - joint_3
+      - joint_4
+      - joint_5
+      - joint_6
+    # constraints:
+    # goal_time: 0.5
+    # joint_limits:
+    #   joint_1: { min: -1.5708, max: 1.5708 }
+    #   joint_2: { min: -1.5708, max: 1.5708 }
+    #   joint_3: { min: -1.5708, max: 1.5708 }
+    #   joint_4: { min: -1.5708, max: 1.5708 }
+    #   joint_5: { min: -1.5708, max: 1.5708 }
+    #   joint_6: { min: -1.5708, max: 1.5708 }
+      
+
+  gripper_controller:
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - joint_8
+      - joint_9
+    # ignore_passive_joints: true 
+
+
+
+
+# moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+# moveit_simple_controller_manager:
+#   controller_names:
+#     - arm_controller
+#     - gripper_controller
+  
+#   arm_controller:
+#     action_ns: follow_joint_trajectory
+#     type: FollowJointTrajectory
+#     default: True
+#     joints:
+#       - joint_1
+#       - joint_2
+#       - joint_3
+
+#   gripper_controller:
+#     action_ns: follow_joint_trajectory
+#     type: FollowJointTrajectory
+#     default: True
+#     joints:
+#       - joint_4
+#       - joint_5
