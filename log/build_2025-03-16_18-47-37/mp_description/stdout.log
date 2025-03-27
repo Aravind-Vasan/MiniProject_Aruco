@@ -1,0 +1,35 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aravind/mp_ws/build/mp_description
+-- Install configuration: ""
+-- Installing: /home/aravind/mp_ws/install/mp_description/share/mp_description/meshes
+-- Installing: /home/aravind/mp_ws/install/mp_description/share/mp_description/meshes/mp_gripperlink1.STL
+-- Installing: /home/aravind/mp_ws/install/mp_description/share/mp_description/meshes/mp_link4.STL
+-- Installing: /home/aravind/mp_ws/install/mp_description/share/mp_description/meshes/mp_gripper.STL
+-- Installing: /home/aravind/mp_ws/install/mp_description/share/mp_description/meshes/mp_gripperlink2.STL
+-- Installing: /home/aravind/mp_ws/install/mp_description/share/mp_description/meshes/mp_link1.STL
+-- Installing: /home/aravind/mp_ws/install/mp_description/share/mp_description/meshes/mp_link5.STL
+-- Installing: /home/aravind/mp_ws/install/mp_description/share/mp_description/meshes/mp_link2.STL
+-- Installing: /home/aravind/mp_ws/install/mp_description/share/mp_description/meshes/mp_base.STL
+-- Installing: /home/aravind/mp_ws/install/mp_description/share/mp_description/meshes/mp_link6.STL
+-- Installing: /home/aravind/mp_ws/install/mp_description/share/mp_description/urdf
+-- Installing: /home/aravind/mp_ws/install/mp_description/share/mp_description/urdf/mp.urdf.xacro
+-- Up-to-date: /home/aravind/mp_ws/install/mp_description/share/ament_index/resource_index/package_run_dependencies/mp_description
+-- Up-to-date: /home/aravind/mp_ws/install/mp_description/share/ament_index/resource_index/parent_prefix_path/mp_description
+-- Up-to-date: /home/aravind/mp_ws/install/mp_description/share/mp_description/environment/ament_prefix_path.sh
+-- Installing: /home/aravind/mp_ws/install/mp_description/share/mp_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/aravind/mp_ws/install/mp_description/share/mp_description/environment/path.sh
+-- Installing: /home/aravind/mp_ws/install/mp_description/share/mp_description/environment/path.dsv
+-- Up-to-date: /home/aravind/mp_ws/install/mp_description/share/mp_description/local_setup.bash
+-- Up-to-date: /home/aravind/mp_ws/install/mp_description/share/mp_description/local_setup.sh
+-- Up-to-date: /home/aravind/mp_ws/install/mp_description/share/mp_description/local_setup.zsh
+-- Installing: /home/aravind/mp_ws/install/mp_description/share/mp_description/local_setup.dsv
+-- Installing: /home/aravind/mp_ws/install/mp_description/share/mp_description/package.dsv
+-- Up-to-date: /home/aravind/mp_ws/install/mp_description/share/ament_index/resource_index/packages/mp_description
+-- Up-to-date: /home/aravind/mp_ws/install/mp_description/share/mp_description/cmake/mp_descriptionConfig.cmake
+-- Up-to-date: /home/aravind/mp_ws/install/mp_description/share/mp_description/cmake/mp_descriptionConfig-version.cmake
+-- Up-to-date: /home/aravind/mp_ws/install/mp_description/share/mp_description/package.xml

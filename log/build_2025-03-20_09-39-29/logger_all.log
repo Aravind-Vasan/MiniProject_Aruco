@@ -1,0 +1,398 @@
+[0.150s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.150s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c985cf517e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c985d03e710>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c985d03e710>>, mixin_verb=('build',))
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.364s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aravind/mp_ws'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_controller) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_controller) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_controller) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_controller) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_controller) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_controller) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_controller) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_controller) by extension 'ros'
+[0.387s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mp_controller' with type 'ros.ament_cmake' and name 'mp_controller'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_description) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_description) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_description) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_description) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_description) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_description) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_description) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_description) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_description) by extension 'ros'
+[0.388s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mp_description' with type 'ros.ament_cmake' and name 'mp_description'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_moveit) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_moveit) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_moveit) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_moveit) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_moveit) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_moveit) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_moveit) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_moveit) by extension 'ros'
+[0.389s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mp_moveit' with type 'ros.ament_cmake' and name 'mp_moveit'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_msgs) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_msgs) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_msgs) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_msgs) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_msgs) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_msgs) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_msgs) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_msgs) by extension 'ros'
+[0.390s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mp_msgs' with type 'ros.ament_cmake' and name 'mp_msgs'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_utils) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_utils) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_utils) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_utils) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_utils) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_utils) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_utils) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_utils) by extension 'ros'
+[0.392s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mp_utils' with type 'ros.ament_cmake' and name 'mp_utils'
+[0.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.449s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 433 installed packages in /opt/ros/humble
+[0.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'mp_controller' build argument 'cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'mp_controller' build argument 'cmake_target' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'mp_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'mp_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'mp_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'mp_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'mp_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'mp_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'mp_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.518s] DEBUG:colcon.colcon_core.verb:Building package 'mp_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aravind/mp_ws/build/mp_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aravind/mp_ws/install/mp_controller', 'merge_install': False, 'path': '/home/aravind/mp_ws/src/mp_controller', 'symlink_install': False, 'test_result_base': None}
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'mp_description' build argument 'cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'mp_description' build argument 'cmake_target' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'mp_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'mp_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'mp_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'mp_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'mp_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'mp_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'mp_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.520s] DEBUG:colcon.colcon_core.verb:Building package 'mp_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aravind/mp_ws/build/mp_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aravind/mp_ws/install/mp_description', 'merge_install': False, 'path': '/home/aravind/mp_ws/src/mp_description', 'symlink_install': False, 'test_result_base': None}
+[0.520s] Level 5:colcon.colcon_core.verb:set package 'mp_moveit' build argument 'cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'mp_moveit' build argument 'cmake_target' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'mp_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'mp_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'mp_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'mp_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'mp_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'mp_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'mp_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.521s] DEBUG:colcon.colcon_core.verb:Building package 'mp_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aravind/mp_ws/build/mp_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aravind/mp_ws/install/mp_moveit', 'merge_install': False, 'path': '/home/aravind/mp_ws/src/mp_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'mp_msgs' build argument 'cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'mp_msgs' build argument 'cmake_target' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'mp_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'mp_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'mp_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'mp_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'mp_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'mp_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'mp_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.522s] DEBUG:colcon.colcon_core.verb:Building package 'mp_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aravind/mp_ws/build/mp_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aravind/mp_ws/install/mp_msgs', 'merge_install': False, 'path': '/home/aravind/mp_ws/src/mp_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'mp_utils' build argument 'cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'mp_utils' build argument 'cmake_target' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'mp_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'mp_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'mp_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'mp_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'mp_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'mp_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'mp_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.522s] DEBUG:colcon.colcon_core.verb:Building package 'mp_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aravind/mp_ws/build/mp_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aravind/mp_ws/install/mp_utils', 'merge_install': False, 'path': '/home/aravind/mp_ws/src/mp_utils', 'symlink_install': False, 'test_result_base': None}
+[0.523s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.525s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.526s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aravind/mp_ws/src/mp_msgs' with build type 'ament_cmake'
+[0.526s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aravind/mp_ws/src/mp_msgs'
+[0.530s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.530s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.530s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.534s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aravind/mp_ws/src/mp_controller' with build type 'ament_cmake'
+[0.534s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aravind/mp_ws/src/mp_controller'
+[0.534s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.535s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.541s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aravind/mp_ws/src/mp_description' with build type 'ament_cmake'
+[0.541s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aravind/mp_ws/src/mp_description'
+[0.541s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.541s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.546s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aravind/mp_ws/src/mp_moveit' with build type 'ament_cmake'
+[0.547s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aravind/mp_ws/src/mp_moveit'
+[0.547s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.547s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aravind/mp_ws/build/mp_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_msgs -- -j12 -l12
+[0.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aravind/mp_ws/build/mp_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_controller -- -j12 -l12
+[0.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aravind/mp_ws/build/mp_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_description -- -j12 -l12
+[0.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aravind/mp_ws/build/mp_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_moveit -- -j12 -l12
+[0.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aravind/mp_ws/build/mp_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_description -- -j12 -l12
+[0.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aravind/mp_ws/build/mp_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_description
+[0.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aravind/mp_ws/build/mp_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_controller -- -j12 -l12
+[0.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aravind/mp_ws/build/mp_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_controller
+[0.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aravind/mp_ws/build/mp_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_moveit -- -j12 -l12
+[0.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aravind/mp_ws/build/mp_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_moveit
+[0.697s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mp_controller)
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_controller' for CMake module files
+[0.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aravind/mp_ws/build/mp_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_controller
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_controller' for CMake config files
+[0.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('mp_controller', 'cmake_prefix_path')
+[0.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_controller/share/mp_controller/hook/cmake_prefix_path.ps1'
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aravind/mp_ws/install/mp_controller/share/mp_controller/hook/cmake_prefix_path.dsv'
+[0.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_controller/share/mp_controller/hook/cmake_prefix_path.sh'
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_controller/bin'
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_controller/lib/pkgconfig/mp_controller.pc'
+[0.724s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_controller/lib/python3.10/site-packages'
+[0.724s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_controller/bin'
+[0.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_controller/share/mp_controller/package.ps1'
+[0.726s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aravind/mp_ws/install/mp_controller/share/mp_controller/package.dsv'
+[0.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_controller/share/mp_controller/package.sh'
+[0.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_controller/share/mp_controller/package.bash'
+[0.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_controller/share/mp_controller/package.zsh'
+[0.735s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aravind/mp_ws/install/mp_controller/share/colcon-core/packages/mp_controller)
+[0.736s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mp_controller)
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_controller' for CMake module files
+[0.737s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_controller' for CMake config files
+[0.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('mp_controller', 'cmake_prefix_path')
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_controller/share/mp_controller/hook/cmake_prefix_path.ps1'
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aravind/mp_ws/install/mp_controller/share/mp_controller/hook/cmake_prefix_path.dsv'
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_controller/share/mp_controller/hook/cmake_prefix_path.sh'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_controller/bin'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_controller/lib/pkgconfig/mp_controller.pc'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_controller/lib/python3.10/site-packages'
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_controller/bin'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_controller/share/mp_controller/package.ps1'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aravind/mp_ws/install/mp_controller/share/mp_controller/package.dsv'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_controller/share/mp_controller/package.sh'
+[0.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_controller/share/mp_controller/package.bash'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_controller/share/mp_controller/package.zsh'
+[0.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aravind/mp_ws/install/mp_controller/share/colcon-core/packages/mp_controller)
+[0.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mp_description)
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_description' for CMake module files
+[0.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aravind/mp_ws/build/mp_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_description
+[0.759s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_description' for CMake config files
+[0.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('mp_description', 'cmake_prefix_path')
+[0.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_description/share/mp_description/hook/cmake_prefix_path.ps1'
+[0.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aravind/mp_ws/install/mp_description/share/mp_description/hook/cmake_prefix_path.dsv'
+[0.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_description/share/mp_description/hook/cmake_prefix_path.sh'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_description/bin'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_description/lib/pkgconfig/mp_description.pc'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_description/lib/python3.10/site-packages'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_description/bin'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_description/share/mp_description/package.ps1'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aravind/mp_ws/install/mp_description/share/mp_description/package.dsv'
+[0.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_description/share/mp_description/package.sh'
+[0.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_description/share/mp_description/package.bash'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_description/share/mp_description/package.zsh'
+[0.770s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aravind/mp_ws/install/mp_description/share/colcon-core/packages/mp_description)
+[0.771s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mp_description)
+[0.771s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_description' for CMake module files
+[0.772s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_description' for CMake config files
+[0.772s] Level 1:colcon.colcon_core.shell:create_environment_hook('mp_description', 'cmake_prefix_path')
+[0.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_description/share/mp_description/hook/cmake_prefix_path.ps1'
+[0.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aravind/mp_ws/install/mp_description/share/mp_description/hook/cmake_prefix_path.dsv'
+[0.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_description/share/mp_description/hook/cmake_prefix_path.sh'
+[0.775s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_description/bin'
+[0.775s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_description/lib/pkgconfig/mp_description.pc'
+[0.775s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_description/lib/python3.10/site-packages'
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_description/bin'
+[0.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_description/share/mp_description/package.ps1'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aravind/mp_ws/install/mp_description/share/mp_description/package.dsv'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_description/share/mp_description/package.sh'
+[0.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_description/share/mp_description/package.bash'
+[0.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_description/share/mp_description/package.zsh'
+[0.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aravind/mp_ws/install/mp_description/share/colcon-core/packages/mp_description)
+[0.786s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mp_moveit)
+[0.787s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_moveit' for CMake module files
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_moveit' for CMake config files
+[0.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aravind/mp_ws/build/mp_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_moveit
+[0.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('mp_moveit', 'cmake_prefix_path')
+[0.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/hook/cmake_prefix_path.ps1'
+[0.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/hook/cmake_prefix_path.dsv'
+[0.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/hook/cmake_prefix_path.sh'
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_moveit/bin'
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_moveit/lib/pkgconfig/mp_moveit.pc'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_moveit/lib/python3.10/site-packages'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_moveit/bin'
+[0.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/package.ps1'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/package.dsv'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/package.sh'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/package.bash'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/package.zsh'
+[0.800s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aravind/mp_ws/install/mp_moveit/share/colcon-core/packages/mp_moveit)
+[0.801s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mp_moveit)
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_moveit' for CMake module files
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_moveit' for CMake config files
+[0.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('mp_moveit', 'cmake_prefix_path')
+[0.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/hook/cmake_prefix_path.ps1'
+[0.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/hook/cmake_prefix_path.dsv'
+[0.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/hook/cmake_prefix_path.sh'
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_moveit/bin'
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_moveit/lib/pkgconfig/mp_moveit.pc'
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_moveit/lib/python3.10/site-packages'
+[0.805s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_moveit/bin'
+[0.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/package.ps1'
+[0.806s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/package.dsv'
+[0.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/package.sh'
+[0.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/package.bash'
+[0.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/package.zsh'
+[0.810s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aravind/mp_ws/install/mp_moveit/share/colcon-core/packages/mp_moveit)
+[1.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aravind/mp_ws/build/mp_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_msgs -- -j12 -l12
+[1.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aravind/mp_ws/build/mp_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_msgs
+[1.314s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mp_msgs)
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_msgs' for CMake module files
+[1.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aravind/mp_ws/build/mp_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_msgs
+[1.317s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_msgs' for CMake config files
+[1.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('mp_msgs', 'cmake_prefix_path')
+[1.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/hook/cmake_prefix_path.ps1'
+[1.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/hook/cmake_prefix_path.dsv'
+[1.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/hook/cmake_prefix_path.sh'
+[1.321s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_msgs/lib'
+[1.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('mp_msgs', 'ld_library_path_lib')
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/hook/ld_library_path_lib.ps1'
+[1.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/hook/ld_library_path_lib.dsv'
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/hook/ld_library_path_lib.sh'
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_msgs/bin'
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_msgs/lib/pkgconfig/mp_msgs.pc'
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_msgs/lib/python3.10/site-packages'
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_msgs/bin'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/package.ps1'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/package.dsv'
+[1.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/package.sh'
+[1.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/package.bash'
+[1.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/package.zsh'
+[1.331s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aravind/mp_ws/install/mp_msgs/share/colcon-core/packages/mp_msgs)
+[1.332s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mp_msgs)
+[1.332s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_msgs' for CMake module files
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_msgs' for CMake config files
+[1.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('mp_msgs', 'cmake_prefix_path')
+[1.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/hook/cmake_prefix_path.ps1'
+[1.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/hook/cmake_prefix_path.dsv'
+[1.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/hook/cmake_prefix_path.sh'
+[1.339s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_msgs/lib'
+[1.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('mp_msgs', 'ld_library_path_lib')
+[1.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/hook/ld_library_path_lib.ps1'
+[1.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/hook/ld_library_path_lib.dsv'
+[1.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/hook/ld_library_path_lib.sh'
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_msgs/bin'
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_msgs/lib/pkgconfig/mp_msgs.pc'
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_msgs/lib/python3.10/site-packages'
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_msgs/bin'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/package.ps1'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/package.dsv'
+[1.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/package.sh'
+[1.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/package.bash'
+[1.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/package.zsh'
+[1.348s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aravind/mp_ws/install/mp_msgs/share/colcon-core/packages/mp_msgs)
+[1.349s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aravind/mp_ws/src/mp_utils' with build type 'ament_cmake'
+[1.349s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aravind/mp_ws/src/mp_utils'
+[1.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aravind/mp_ws/build/mp_utils': AMENT_PREFIX_PATH=/home/aravind/mp_ws/install/mp_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aravind/mp_ws/install/mp_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/aravind/mp_ws/install/mp_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aravind/mp_ws/install/mp_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_utils -- -j12 -l12
+[1.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aravind/mp_ws/build/mp_utils' returned '0': AMENT_PREFIX_PATH=/home/aravind/mp_ws/install/mp_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aravind/mp_ws/install/mp_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/aravind/mp_ws/install/mp_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aravind/mp_ws/install/mp_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_utils -- -j12 -l12
+[1.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aravind/mp_ws/build/mp_utils': AMENT_PREFIX_PATH=/home/aravind/mp_ws/install/mp_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aravind/mp_ws/install/mp_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/aravind/mp_ws/install/mp_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aravind/mp_ws/install/mp_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_utils
+[2.004s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mp_utils)
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_utils' for CMake module files
+[2.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aravind/mp_ws/build/mp_utils' returned '0': AMENT_PREFIX_PATH=/home/aravind/mp_ws/install/mp_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aravind/mp_ws/install/mp_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/aravind/mp_ws/install/mp_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aravind/mp_ws/install/mp_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_utils
+[2.006s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_utils' for CMake config files
+[2.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('mp_utils', 'cmake_prefix_path')
+[2.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_utils/share/mp_utils/hook/cmake_prefix_path.ps1'
+[2.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aravind/mp_ws/install/mp_utils/share/mp_utils/hook/cmake_prefix_path.dsv'
+[2.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_utils/share/mp_utils/hook/cmake_prefix_path.sh'
+[2.012s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_utils/lib'
+[2.012s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_utils/bin'
+[2.012s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_utils/lib/pkgconfig/mp_utils.pc'
+[2.013s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_utils/lib/python3.10/site-packages'
+[2.013s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_utils/bin'
+[2.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_utils/share/mp_utils/package.ps1'
+[2.014s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aravind/mp_ws/install/mp_utils/share/mp_utils/package.dsv'
+[2.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_utils/share/mp_utils/package.sh'
+[2.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_utils/share/mp_utils/package.bash'
+[2.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_utils/share/mp_utils/package.zsh'
+[2.016s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aravind/mp_ws/install/mp_utils/share/colcon-core/packages/mp_utils)
+[2.017s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mp_utils)
+[2.018s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_utils' for CMake module files
+[2.018s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_utils' for CMake config files
+[2.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('mp_utils', 'cmake_prefix_path')
+[2.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_utils/share/mp_utils/hook/cmake_prefix_path.ps1'
+[2.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aravind/mp_ws/install/mp_utils/share/mp_utils/hook/cmake_prefix_path.dsv'
+[2.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aravind/mp_ws/install/mp_utils/share/mp_utils/hook/cmake_prefix_path.sh'
+[2.021s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_utils/lib'
+[2.021s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_utils/bin'
+[2.021s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_utils/lib/pkgconfig/mp_utils.pc'
+[2.021s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_utils/lib/python3.10/site-packages'
+[2.022s] Level 1:colcon.colcon_core.environment:checking '/home/aravind/mp_ws/install/mp_utils/bin'
+[2.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_utils/share/mp_utils/package.ps1'
+[2.022s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aravind/mp_ws/install/mp_utils/share/mp_utils/package.dsv'
+[2.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_utils/share/mp_utils/package.sh'
+[2.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_utils/share/mp_utils/package.bash'
+[2.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/aravind/mp_ws/install/mp_utils/share/mp_utils/package.zsh'
+[2.025s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aravind/mp_ws/install/mp_utils/share/colcon-core/packages/mp_utils)
+[2.026s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.031s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.032s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.032s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.043s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.044s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.044s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.061s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.062s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aravind/mp_ws/install/local_setup.ps1'
+[2.064s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aravind/mp_ws/install/_local_setup_util_ps1.py'
+[2.066s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aravind/mp_ws/install/setup.ps1'
+[2.068s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aravind/mp_ws/install/local_setup.sh'
+[2.069s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aravind/mp_ws/install/_local_setup_util_sh.py'
+[2.070s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aravind/mp_ws/install/setup.sh'
+[2.073s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aravind/mp_ws/install/local_setup.bash'
+[2.074s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aravind/mp_ws/install/setup.bash'
+[2.075s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aravind/mp_ws/install/local_setup.zsh'
+[2.077s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aravind/mp_ws/install/setup.zsh'

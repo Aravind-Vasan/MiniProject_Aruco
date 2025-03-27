@@ -1,0 +1,6 @@
+Invoking command in '/home/aravind/mp_ws/build/mp_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aravind/mp_ws/src/mp_msgs -DCMAKE_INSTALL_PREFIX=/home/aravind/mp_ws/install/mp_msgs
+Invoked command in '/home/aravind/mp_ws/build/mp_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aravind/mp_ws/src/mp_msgs -DCMAKE_INSTALL_PREFIX=/home/aravind/mp_ws/install/mp_msgs
+Invoking command in '/home/aravind/mp_ws/build/mp_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_msgs -- -j12 -l12
+Invoked command in '/home/aravind/mp_ws/build/mp_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_msgs -- -j12 -l12
+Invoking command in '/home/aravind/mp_ws/build/mp_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_msgs
+Invoked command in '/home/aravind/mp_ws/build/mp_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_msgs

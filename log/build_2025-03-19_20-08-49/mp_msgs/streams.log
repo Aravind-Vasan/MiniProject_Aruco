@@ -1,0 +1,42 @@
+[0.015s] Invoking command in '/home/aravind/mp_ws/build/mp_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aravind/mp_ws/src/mp_msgs -DCMAKE_INSTALL_PREFIX=/home/aravind/mp_ws/install/mp_msgs
+[0.094s] -- The C compiler identification is GNU 11.4.0
+[0.153s] -- The CXX compiler identification is GNU 11.4.0
+[0.162s] -- Detecting C compiler ABI info
+[0.241s] -- Detecting C compiler ABI info - done
+[0.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.246s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.249s] -- Detecting CXX compiler ABI info
+[0.321s] -- Detecting CXX compiler ABI info - done
+[0.331s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.331s] -- Detecting CXX compile features
+[0.331s] -- Detecting CXX compile features - done
+[0.338s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.479s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.583s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.654s] -- Added test 'lint_cmake' to check CMake code style
+[0.655s] -- Added test 'xmllint' to check XML markup files
+[0.661s] -- Configuring done
+[0.661s] -- Generating done
+[0.661s] -- Build files have been written to: /home/aravind/mp_ws/build/mp_msgs
+[0.668s] Invoked command in '/home/aravind/mp_ws/build/mp_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aravind/mp_ws/src/mp_msgs -DCMAKE_INSTALL_PREFIX=/home/aravind/mp_ws/install/mp_msgs
+[0.668s] Invoking command in '/home/aravind/mp_ws/build/mp_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_msgs -- -j12 -l12
+[0.708s] Invoked command in '/home/aravind/mp_ws/build/mp_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_msgs -- -j12 -l12
+[0.710s] Invoking command in '/home/aravind/mp_ws/build/mp_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_msgs
+[0.719s] -- Install configuration: ""
+[0.719s] -- Installing: /home/aravind/mp_ws/install/mp_msgs/share/ament_index/resource_index/package_run_dependencies/mp_msgs
+[0.719s] -- Installing: /home/aravind/mp_ws/install/mp_msgs/share/ament_index/resource_index/parent_prefix_path/mp_msgs
+[0.719s] -- Installing: /home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/environment/ament_prefix_path.sh
+[0.719s] -- Installing: /home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/environment/ament_prefix_path.dsv
+[0.720s] -- Installing: /home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/environment/path.sh
+[0.720s] -- Installing: /home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/environment/path.dsv
+[0.720s] -- Installing: /home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/local_setup.bash
+[0.720s] -- Installing: /home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/local_setup.sh
+[0.720s] -- Installing: /home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/local_setup.zsh
+[0.720s] -- Installing: /home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/local_setup.dsv
+[0.720s] -- Installing: /home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/package.dsv
+[0.720s] -- Installing: /home/aravind/mp_ws/install/mp_msgs/share/ament_index/resource_index/packages/mp_msgs
+[0.720s] -- Installing: /home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/cmake/mp_msgsConfig.cmake
+[0.720s] -- Installing: /home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/cmake/mp_msgsConfig-version.cmake
+[0.720s] -- Installing: /home/aravind/mp_ws/install/mp_msgs/share/mp_msgs/package.xml
+[0.722s] Invoked command in '/home/aravind/mp_ws/build/mp_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_msgs

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="mp"> <!-- To define the components of urdf robot files-->
+    <xacro:property name="PI" value="3.14159"/>
+    <param name ="/use_sim_time" value="true"/>
+    <ros2_control name="RobotSystem" type="system"> <!-- To config and interface the hardware to ros2 control lib-->
+        <hardware> 
+            <plugin>gazebo_ros2_control/GazeboSystem</plugin> <!-- the system we have to config, basically the gazebo sim-->
+        </hardware>
+
+        <joint name="joint_1"> <!-- Command interface and state interface to resource manager-->
+            <command_interface name="position"> <!--Its position control system, so we use position in both CI and SI-->
+                <param name="min">-${PI/2}</param> <!--Command interface is giving commands to the joint-->
+                <param name="max">${PI/2}</param>
+            </command_interface>
+            <state_interface name="position"> <!-- State interface is getting the position from the current state of robot-->
+            </state_interface>
+        </joint>
+
+        <joint name="joint_2"> <!-- All joints have same CI and SI in our case, as all are controlled with position-->
+            <command_interface name="position">
+                <param name="min">-${PI/2}</param>
+                <param name="max">${PI/2}</param>
+            </command_interface>
+            <state_interface name="position">
+            </state_interface>
+        </joint>
+
+        <joint name="joint_3">
+            <command_interface name="position">
+                <param name="min">-${PI/2}</param>
+                <param name="max">${PI/2}</param>
+            </command_interface>
+            <state_interface name="position">
+            </state_interface>
+        </joint>
+
+        <joint name="joint_4">
+            <command_interface name="position">
+                <param name="min">-${PI/2}</param>
+                <param name="max">${PI/2}</param>
+            </command_interface>
+            <state_interface name="position">
+            </state_interface>
+        </joint>
+
+        <joint name="joint_5">
+            <command_interface name="position">
+                <param name="min">-${PI/2}</param>
+                <param name="max">${PI/2}</param>
+            </command_interface>
+            <state_interface name="position">
+            </state_interface>
+        </joint>
+
+        <joint name="joint_6">
+            <command_interface name="position">
+                <param name="min">-${PI/2}</param>
+                <param name="max">${PI/2}</param>
+            </command_interface>
+            <state_interface name="position">
+            </state_interface>
+        </joint>
+
+        <joint name="joint_7">
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="joint_8">
+            <command_interface name="position">
+                <param name="min">-${PI/2}</param>
+                <param name="max">${PI/2}</param>
+            </command_interface>
+            <state_interface name="position">
+            </state_interface>
+        </joint>
+
+        <joint name="joint_9"> <!-- This joint and 4th joint does not actuate individually because they are from gripper-->
+            <!-- <param name="mimic">joint_8</param> So we use mimic to move joint4 and 5 together always -->
+            <!-- <param name="multiplier">-1</param> Symmetric joints , so they move in opposite directions and hence -1 -->
+            <command_interface name="position">
+                <param name="min">0.0</param>
+                <param name="max">${PI/2}</param>
+            </command_interface>
+            <state_interface name="position">
+            </state_interface>
+        </joint>
+
+    </ros2_control>
+
+</robot>

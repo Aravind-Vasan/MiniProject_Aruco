@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<robot name="mp">
+    
+    <!-- <passive_joint name="joint_9"/> -->
+    <param name ="/use_sim_time" value="true"/>
+    <group name="arm"> 
+        <joint name="virtual_joint"/>
+
+        <joint name="joint_1"/>
+        <joint name="joint_2"/>
+        <joint name="joint_3"/>
+        <joint name="joint_4"/>
+        <joint name="joint_5"/>
+
+        <joint name="joint_6"/>
+
+    </group>
+
+    <group name="gripper">
+        <joint name="joint_8"/>
+        <joint name="joint_9"/>
+    </group>
+
+    <group_state name="home" group="arm">
+        <joint name="joint_1" value="0"/>
+        <joint name="joint_2" value="0"/>
+        <joint name="joint_3" value="-0.5"/>
+        <joint name="joint_4" value="0.5"/>
+        <joint name="joint_5" value="0"/>
+        <joint name="joint_6" value="0"/>
+    </group_state>
+
+    <group_state name="home" group="gripper">
+        <joint name="joint_8" value="0"/>
+        
+    </group_state>
+
+    <!-- Disable adjacent links -->
+    <disable_collision link1="base_link" link2="mp_link1" reason="adjacent"/>
+    <disable_collision link1="mp_link1" link2="mp_link2" reason="adjacent"/>
+    <disable_collision link1="mp_link2" link2="mp_link3" reason="adjacent"/>
+    <disable_collision link1="mp_link4" link2="mp_link5" reason="adjacent"/>
+    <disable_collision link1="mp_link5" link2="mp_link6" reason="adjacent"/>
+    <disable_collision link1="mp_link6" link2="gripper_support" reason="adjacent"/>
+
+    <!-- Gripper-specific collisions -->
+    <disable_collision link1="gripper_support" link2="gripper_left" reason="Never"/>
+    <disable_collision link1="gripper_support" link2="gripper_right" reason="Never"/>
+    <disable_collision link1="gripper_left" link2="gripper_right" reason="Never"/>
+
+    <!-- Non-adjacent arm links that never collide -->
+    <disable_collision link1="mp_link3" link2="mp_link4" reason="Never"/>
+    <disable_collision link1="base_link" link2="mp_link3" reason="Never"/>
+    <disable_collision link1="mp_link1" link2="mp_link4" reason="Never"/>
+    <disable_collision link1="mp_link2" link2="mp_link5" reason="Never"/>
+    <disable_collision link1="mp_link3" link2="mp_link6" reason="Never"/>
+    <disable_collision link1="mp_link4" link2="gripper_support" reason="Never"/>
+</robot>
+
+
+
+<!-- <?xml version= "1.0" encoding="UTF-8"?>
+
+<robot name="manipulator">
+    <param name ="/use_sim_time" value="true"/>
+    <group name="arm">
+        <joint name="virtual_joint"/>
+
+        <joint name="joint_1"/>
+        <joint name="joint_2"/>
+        <joint name="joint_3"/>
+
+        <joint name="horizontal_arm_to_claw_support"/>
+
+    </group>
+
+    <group name="gripper">
+        <joint name="joint_4"/>
+        <joint name="joint_5"/>
+    </group>
+
+    <group_state name="home" group="arm">
+        <joint name="joint_1" value="0"/>
+        <joint name="joint_2" value="0"/>
+        <joint name="joint_3" value="0"/>
+    </group_state>
+
+
+    <group_state name="home" group="gripper">
+        <joint name="joint_4" value="0"/>
+    </group_state>
+
+    <disable_collision link1="base_link" link2="base_plate" reason="adjacent"/>
+    <disable_collision link1="base_link" link2="forward_drive_arm" reason="Never"/>
+    <disable_collision link1="base_plate" link2="forward_drive_arm" reason="Never"/>
+    <disable_collision link1="claw_support" link2="forward_drive_arm" reason="Never"/>
+    <disable_collision link1="claw_support" link2="gripper_left" reason="Never"/>
+    <disable_collision link1="claw_support" link2="gripper_right" reason="Never"/>
+    <disable_collision link1="forward_drive_arm" link2="gripper_left" reason="Never"/>
+    <disable_collision link1="forward_drive_arm" link2="gripper_right" reason="Never"/>
+    <disable_collision link1="forward_drive_arm" link2="horizontal_arm" reason="Never"/>
+    <disable_collision link1="gripper_left" link2="horizontal_arm" reason="Never"/>
+    <disable_collision link1="gripper_right" link2="horizontal_arm" reason="Never"/>
+    <disable_collision link1="gripper_left" link2="gripper_right" reason="Never"/>
+
+</robot> -->

@@ -1,0 +1,7 @@
+{
+  "package_name": "mp_msgs",
+  "non_idl_tuples": [
+    "/home/aravind/mp_ws/src/mp_msgs:srv/EulerToQuaternion.srv",
+    "/home/aravind/mp_ws/src/mp_msgs:srv/QuaternionToEuler.srv"
+  ]
+}

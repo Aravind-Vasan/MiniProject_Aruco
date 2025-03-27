@@ -1,0 +1,9 @@
+setup.py
+mp_msgs/__init__.py
+mp_msgs.egg-info/PKG-INFO
+mp_msgs.egg-info/SOURCES.txt
+mp_msgs.egg-info/dependency_links.txt
+mp_msgs.egg-info/top_level.txt
+mp_msgs/srv/__init__.py
+mp_msgs/srv/_euler_to_quaternion.py
+mp_msgs/srv/_quaternion_to_euler.py

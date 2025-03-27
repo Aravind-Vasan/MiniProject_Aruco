@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mp_msgs__py",
+		"source" : "/home/aravind/mp_ws/build/mp_msgs/mp_msgs__py"
+	}
+}

@@ -1,0 +1,33 @@
+[0.024s] Invoking command in '/home/aravind/mp_ws/build/mp_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_controller -- -j12 -l12
+[0.084s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.296s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.472s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.473s] -- Added test 'lint_cmake' to check CMake code style
+[0.474s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.475s] -- Added test 'xmllint' to check XML markup files
+[0.477s] -- Configuring done
+[0.481s] -- Generating done
+[0.482s] -- Build files have been written to: /home/aravind/mp_ws/build/mp_controller
+[0.512s] Invoked command in '/home/aravind/mp_ws/build/mp_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_controller -- -j12 -l12
+[0.514s] Invoking command in '/home/aravind/mp_ws/build/mp_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_controller
+[0.521s] -- Install configuration: ""
+[0.522s] -- Up-to-date: /home/aravind/mp_ws/install/mp_controller/share/mp_controller/config
+[0.522s] -- Up-to-date: /home/aravind/mp_ws/install/mp_controller/share/mp_controller/config/mp_controllers.yaml
+[0.522s] -- Installing: /home/aravind/mp_ws/install/mp_controller/share/mp_controller/launch
+[0.522s] -- Installing: /home/aravind/mp_ws/install/mp_controller/share/mp_controller/launch/controller.launch.py
+[0.522s] -- Installing: /home/aravind/mp_ws/install/mp_controller/share/ament_index/resource_index/package_run_dependencies/mp_controller
+[0.522s] -- Up-to-date: /home/aravind/mp_ws/install/mp_controller/share/ament_index/resource_index/parent_prefix_path/mp_controller
+[0.522s] -- Up-to-date: /home/aravind/mp_ws/install/mp_controller/share/mp_controller/environment/ament_prefix_path.sh
+[0.523s] -- Installing: /home/aravind/mp_ws/install/mp_controller/share/mp_controller/environment/ament_prefix_path.dsv
+[0.523s] -- Up-to-date: /home/aravind/mp_ws/install/mp_controller/share/mp_controller/environment/path.sh
+[0.523s] -- Installing: /home/aravind/mp_ws/install/mp_controller/share/mp_controller/environment/path.dsv
+[0.523s] -- Up-to-date: /home/aravind/mp_ws/install/mp_controller/share/mp_controller/local_setup.bash
+[0.523s] -- Up-to-date: /home/aravind/mp_ws/install/mp_controller/share/mp_controller/local_setup.sh
+[0.523s] -- Up-to-date: /home/aravind/mp_ws/install/mp_controller/share/mp_controller/local_setup.zsh
+[0.523s] -- Installing: /home/aravind/mp_ws/install/mp_controller/share/mp_controller/local_setup.dsv
+[0.523s] -- Installing: /home/aravind/mp_ws/install/mp_controller/share/mp_controller/package.dsv
+[0.523s] -- Up-to-date: /home/aravind/mp_ws/install/mp_controller/share/ament_index/resource_index/packages/mp_controller
+[0.524s] -- Up-to-date: /home/aravind/mp_ws/install/mp_controller/share/mp_controller/cmake/mp_controllerConfig.cmake
+[0.524s] -- Up-to-date: /home/aravind/mp_ws/install/mp_controller/share/mp_controller/cmake/mp_controllerConfig-version.cmake
+[0.524s] -- Installing: /home/aravind/mp_ws/install/mp_controller/share/mp_controller/package.xml
+[0.525s] Invoked command in '/home/aravind/mp_ws/build/mp_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_controller

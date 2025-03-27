@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mp_msgs/srv/EulerToQuaternion.srv
+// generated code does not contain a copyright notice
+
+
+module mp_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "request")
+    struct EulerToQuaternion_Request {
+      double roll;
+
+      double pitch;
+
+      double yaw;
+    };
+    @verbatim (language="comment", text=
+      "response")
+    struct EulerToQuaternion_Response {
+      double x;
+
+      double y;
+
+      double z;
+
+      double w;
+    };
+  };
+};

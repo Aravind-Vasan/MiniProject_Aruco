@@ -1,0 +1,19 @@
+[0.016s] Invoking command in '/home/aravind/mp_ws/build/mp_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_msgs -- -j12 -l12
+[0.035s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.147s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.178s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.181s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.188s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.210s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.232s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.257s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.263s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:59 (message):
+[0.263s]   rosidl_generate_interfaces() called without any interface files
+[0.263s] Call Stack (most recent call first):
+[0.263s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.263s] 
+[0.263s] [0m
+[0.263s] -- Configuring incomplete, errors occurred!
+[0.263s] See also "/home/aravind/mp_ws/build/mp_msgs/CMakeFiles/CMakeOutput.log".
+[0.265s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.267s] Invoked command in '/home/aravind/mp_ws/build/mp_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_msgs -- -j12 -l12

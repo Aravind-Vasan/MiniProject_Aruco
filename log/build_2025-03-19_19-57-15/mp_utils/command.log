@@ -1,0 +1,6 @@
+Invoking command in '/home/aravind/mp_ws/build/mp_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aravind/mp_ws/src/mp_utils -DCMAKE_INSTALL_PREFIX=/home/aravind/mp_ws/install/mp_utils
+Invoked command in '/home/aravind/mp_ws/build/mp_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aravind/mp_ws/src/mp_utils -DCMAKE_INSTALL_PREFIX=/home/aravind/mp_ws/install/mp_utils
+Invoking command in '/home/aravind/mp_ws/build/mp_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_utils -- -j12 -l12
+Invoked command in '/home/aravind/mp_ws/build/mp_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_utils -- -j12 -l12
+Invoking command in '/home/aravind/mp_ws/build/mp_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_utils
+Invoked command in '/home/aravind/mp_ws/build/mp_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_utils
