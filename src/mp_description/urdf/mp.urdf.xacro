@@ -128,10 +128,9 @@
             </geometry>
         </visual>
         <collision>
-            <origin rpy="${PI/2} 0 0" xyz="-0.4 0.4 0"/>
+            <origin rpy="${PI} ${PI/2} ${PI}" xyz="-0.4 0.4 0"/>
             <geometry>
-                <mesh filename="package://mp_description/meshes/mp_link1.STL" scale= "0.01 0.01 0.01"/>  
-                <!-- changed link1, link2, link3, link4 collision scaled to 0.01-->
+                <cylinder radius="0.1" length="0.1"/> <!-- Adjust dimensions -->
             </geometry>
         </collision>
     </link>
@@ -152,9 +151,9 @@
             </geometry>
         </visual>
         <collision>
-            <origin rpy="${PI} 0 ${PI}" xyz="0.3 -0.3 1"/>
+            <origin rpy="${PI} ${PI/2} ${PI}" xyz="0.3 -0.3 1"/>
             <geometry>
-                <mesh filename="package://mp_description/meshes/mp_link2.STL" scale= "0.01 0.01 0.01"/>
+                <cylinder radius="0.1" length="0.1"/> <!-- Adjust dimensions -->
             </geometry>
         </collision>
     </link>
@@ -176,9 +175,9 @@
             </geometry>
         </visual>
         <collision>
-            <origin rpy="0 -${PI/2} 0" xyz="0.4 -0.25 0.0"/>
+            <origin rpy="${PI} ${PI/2} ${PI}" xyz="0.4 -0.25 0.0"/>
             <geometry>
-                <mesh filename="package://mp_description/meshes/mp_link3.STL" scale= "0.01 0.01 0.01"/>
+                <cylinder radius="0.1" length="0.1"/> <!-- Adjust dimensions -->
             </geometry>
         </collision>
     </link>
@@ -200,9 +199,9 @@
             </geometry>
         </visual>
         <collision>
-            <origin rpy="0 -${PI/2} 0" xyz="0.4 -0.25 -0.65"/>
+            <origin rpy="${PI} ${PI/2} ${PI}" xyz="0.4 -0.25 -0.65"/>
             <geometry>
-                <mesh filename="package://mp_description/meshes/mp_link4.STL" scale= "0.01 0.01 0.01"/>
+                <cylinder radius="0.1" length="0.1"/> <!-- Adjust dimensions -->
             </geometry>
         </collision>
     </link>
@@ -226,7 +225,7 @@
         <collision>
             <origin rpy="${PI} ${PI/2} ${PI}" xyz="-0.3 -0.2 0.6"/>
             <geometry>
-                <mesh filename="package://mp_description/meshes/mp_link5.STL" scale= "0.01 0.01 0.01"/>
+                <cylinder radius="0.1" length="0.1"/> <!-- Adjust dimensions -->
             </geometry>
         </collision>
     </link>
@@ -248,9 +247,9 @@
             </geometry>
         </visual>
         <collision>
-            <origin rpy="${PI/2} 0 0" xyz="-0.25 0.25 0"/>
+            <origin rpy="${PI} ${PI/2} ${PI}" xyz="-0.25 0.25 0"/>
             <geometry>
-                <mesh filename="package://mp_description/meshes/mp_link6.STL" scale= "0.01 0.01 0.01"/>
+                <cylinder radius="0.1" length="0.1"/> <!-- Adjust dimensions -->
             </geometry>
         </collision>
     </link>
@@ -272,9 +271,9 @@
             </geometry>
         </visual>
         <collision>
-            <origin rpy="${PI/2} 0 ${PI/2}" xyz="-0.2 -0.2 0.1"/>
+            <origin rpy="${PI} ${PI/2} ${PI}" xyz="-0.2 -0.2 0.1"/>
             <geometry>
-                <mesh filename="package://mp_description/meshes/mp_gripper.STL" scale= "0.01 0.01 0.01"/>
+                <cylinder radius="0.1" length="0.1"/> <!-- Adjust dimensions -->
             </geometry>
         </collision>
     </link>
@@ -297,7 +296,7 @@
         <collision>
             <origin rpy="${PI/2} 0 ${3*PI/2}" xyz="0.41 0.95 0"/>
             <geometry>
-                <mesh filename="package://mp_description/meshes/mp_gripperlink2.STL" scale="0.01 0.01 0.01"/>
+                <box size="0.01 0.01 0.01"/>
             </geometry>
         </collision>
     </link>
@@ -321,7 +320,7 @@
         <collision>
             <origin rpy="${PI/2} 0 ${3*PI/2}" xyz="0.41 0.1 0"/>
             <geometry>
-                <mesh filename="package://mp_description/meshes/mp_gripperlink1.STL" scale="0.01 0.01 0.01"/>
+                <box size="0.01 0.01 0.01"/>
             </geometry>
         </collision>
     </link>
@@ -332,7 +331,7 @@
         <axis xyz="0 0 1"/>
         <origin rpy="0 -${PI/2} 0" xyz="0 0.11 0.5"/>
         <mimic joint="joint_8" multiplier="-1" offset="0"/> <!-- offset --> 
-        <disable_collisions link1="gripper_left" link2="gripper_right" reason="Never"/>
+        <!-- <disable_collisions link1="gripper_left" link2="gripper_right" reason="Never"/> -->
         <limit lower="0.0" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
     </joint>
 
@@ -342,37 +341,37 @@
     </joint>
     <link name="dummy_mimic_fix"/> -->
 
+    <link name="rgb_camera">
+        <xacro:default_inertial mass="0.001"/>
+        <visual>
+            <origin rpy="${PI/2} ${PI} ${PI/2}" xyz="-0.12 0.1 0.1"/>
+            <geometry>
+                <mesh filename="package://mp_description/meshes/pi_camera.STL" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://mp_description/meshes/pi_camera.STL" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </collision>
+    </link>
 
-    <!-- <joint name="camera_optical_joint" type="fixed">
-        <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
-        <parent link="camera_link"/>
-        <child link="camera_link_optical"/>
+    <joint name ="rgb_camera_joint" type="fixed">
+        <parent link="gripper_support"/>
+        <child link = "rgb_camera"/>
+        <origin xyz="-0.4 0 0" rpy="0 -${PI/2} 0"/>
+        <!-- y - ${PI} -->
     </joint>
 
-    <link name="camera_link_optical"></link>
+    <link name="camera_link_optical"/>
 
-    <gazebo reference="camera_link">
-        <sensor name="camera" type="camera">
-            <pose> 0 0 0 0 0 0 </pose>
-            <visualize>true</visualize>
-            <update_rate>10</update_rate>
-            <camera>
-                <horizontal_fov>1.089</horizontal_fov>
-                <image>
-                    <format>R8G8B8</format>
-                    <width>640</width>
-                    <height>480</height>
-                </image>
-                <clip>
-                    <near>0.05</near>
-                    <far>8.0</far>
-                </clip>
-            </camera>
-            <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
-                <frame_name>camera_link_optical</frame_name>
-            </plugin>
-        </sensor>
-    </gazebo> -->
+    <joint name="camera_optical_joint" type="fixed">
+        <parent link="rgb_camera"/>
+        <child link="camera_link_optical"/>
+        <origin xyz="0 0 0" rpy="0 ${3*PI/2} ${PI}"/>
+        <!-- 0.55 0.125 -->
+    </joint>
 
     <xacro:default_transmission number="1"/>
     <xacro:default_transmission number="2"/>
@@ -384,53 +383,3 @@
     <xacro:default_transmission number="8"/>
 
 </robot>
-
-<!-- 
-<link name="gripper_right">
-        <xacro:default_inertial mass="0.01"/>
-        <visual>
-            <origin rpy="0 0 -${PI/2}" xyz="-0.1 0.5 -0.1"/>
-            <geometry>
-                <mesh filename="package://arduinobot_description/meshes/right_finger.STL" scale="0.01 0.01 0.01"/>
-            </geometry>
-        </visual>
-        <collision>
-            <origin rpy="0 0 -${PI/2}" xyz="-0.1 0.5 -0.1"/>
-            <geometry>
-                <mesh filename="package://arduinobot_description/meshes/right_finger.STL" scale="0.01 0.01 0.01"/>
-            </geometry>
-        </collision>
-    </link>
-
-    <link name="gripper_left">
-        <xacro:default_inertial mass="0.01"/>
-        <visual>
-            <origin rpy="0 0 -${PI/2}" xyz="-0.04 0.5 -0.1"/>
-            <geometry>
-                <mesh filename="package://arduinobot_description/meshes/left_finger.STL" scale="0.01 0.01 0.01"/>
-            </geometry>
-        </visual>
-        <collision>
-            <origin rpy="0 0 -${PI/2}" xyz="-0.04 0.5 -0.1"/>
-            <geometry>
-                <mesh filename="package://arduinobot_description/meshes/left_finger.STL" scale="0.01 0.01 0.01"/>
-            </geometry>
-        </collision>
-    </link>
-
-    <joint name="joint_4" type="revolute">
-        <parent link="claw_support"/>
-        <child link="gripper_right"/>
-        <axis xyz="0 0 1"/>
-        <origin rpy="0 0 0" xyz="-0.04 0.13 -0.1"/>
-        <limit lower="-${PI/2}" upper="0.0" effort="${effort}" velocity="${velocity}"/>
-    </joint>
-
-    <joint name="joint_5" type="revolute">
-        <parent link="claw_support"/>
-        <child link="gripper_left"/>
-        <axis xyz="0 0 1"/>
-        <origin rpy="0 0 0" xyz="-0.22 0.13 -0.1"/>
-        <mimic joint="joint_4" multiplier="-1"/>
-        <limit lower="0.0" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
-    </joint> -->
