@@ -1,0 +1,40 @@
+[0.082s] Invoking command in '/home/aravind/mp_ws/build/mp_utils': CMAKE_PREFIX_PATH=/home/aravind/mp_ws/install/mp_msgs:/home/aravind/mp_ws/install/mp_utils:/home/aravind/mp_ws/install/mp_moveit:/home/aravind/mp_ws/install/mp_description:/home/aravind/mp_ws/install/mp_controller:/home/aravind/mp_ws/install/mp_aruco_estimation:/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_utils -- -j12 -l12
+[0.404s] Built target ament_cmake_python_copy_mp_utils
+[1.544s] running egg_info
+[1.546s] writing mp_utils.egg-info/PKG-INFO
+[1.547s] writing dependency_links to mp_utils.egg-info/dependency_links.txt
+[1.547s] writing top-level names to mp_utils.egg-info/top_level.txt
+[1.575s] reading manifest file 'mp_utils.egg-info/SOURCES.txt'
+[1.579s] writing manifest file 'mp_utils.egg-info/SOURCES.txt'
+[1.913s] Built target ament_cmake_python_build_mp_utils_egg
+[1.991s] Invoked command in '/home/aravind/mp_ws/build/mp_utils' returned '0': CMAKE_PREFIX_PATH=/home/aravind/mp_ws/install/mp_msgs:/home/aravind/mp_ws/install/mp_utils:/home/aravind/mp_ws/install/mp_moveit:/home/aravind/mp_ws/install/mp_description:/home/aravind/mp_ws/install/mp_controller:/home/aravind/mp_ws/install/mp_aruco_estimation:/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_utils -- -j12 -l12
+[2.010s] Invoking command in '/home/aravind/mp_ws/build/mp_utils': CMAKE_PREFIX_PATH=/home/aravind/mp_ws/install/mp_msgs:/home/aravind/mp_ws/install/mp_utils:/home/aravind/mp_ws/install/mp_moveit:/home/aravind/mp_ws/install/mp_description:/home/aravind/mp_ws/install/mp_controller:/home/aravind/mp_ws/install/mp_aruco_estimation:/opt/ros/humble /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_utils
+[2.047s] -- Install configuration: ""
+[2.048s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/share/mp_utils/environment/pythonpath.sh
+[2.048s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/share/mp_utils/environment/pythonpath.dsv
+[2.048s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/local/lib/python3.10/dist-packages/mp_utils-0.0.0-py3.10.egg-info
+[2.048s] -- Installing: /home/aravind/mp_ws/install/mp_utils/local/lib/python3.10/dist-packages/mp_utils-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.049s] -- Installing: /home/aravind/mp_ws/install/mp_utils/local/lib/python3.10/dist-packages/mp_utils-0.0.0-py3.10.egg-info/top_level.txt
+[2.050s] -- Installing: /home/aravind/mp_ws/install/mp_utils/local/lib/python3.10/dist-packages/mp_utils-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.050s] -- Installing: /home/aravind/mp_ws/install/mp_utils/local/lib/python3.10/dist-packages/mp_utils-0.0.0-py3.10.egg-info/PKG-INFO
+[2.050s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/local/lib/python3.10/dist-packages/mp_utils
+[2.050s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/local/lib/python3.10/dist-packages/mp_utils/__init__.py
+[2.050s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/local/lib/python3.10/dist-packages/mp_utils/angle_conversion.py
+[2.219s] Listing '/home/aravind/mp_ws/install/mp_utils/local/lib/python3.10/dist-packages/mp_utils'...
+[2.266s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/lib/mp_utils/angle_conversion.py
+[2.267s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/share/ament_index/resource_index/package_run_dependencies/mp_utils
+[2.271s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/share/ament_index/resource_index/parent_prefix_path/mp_utils
+[2.273s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/share/mp_utils/environment/ament_prefix_path.sh
+[2.274s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/share/mp_utils/environment/ament_prefix_path.dsv
+[2.274s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/share/mp_utils/environment/path.sh
+[2.274s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/share/mp_utils/environment/path.dsv
+[2.274s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/share/mp_utils/local_setup.bash
+[2.274s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/share/mp_utils/local_setup.sh
+[2.275s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/share/mp_utils/local_setup.zsh
+[2.275s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/share/mp_utils/local_setup.dsv
+[2.275s] -- Installing: /home/aravind/mp_ws/install/mp_utils/share/mp_utils/package.dsv
+[2.275s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/share/ament_index/resource_index/packages/mp_utils
+[2.275s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/share/mp_utils/cmake/mp_utilsConfig.cmake
+[2.276s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/share/mp_utils/cmake/mp_utilsConfig-version.cmake
+[2.276s] -- Up-to-date: /home/aravind/mp_ws/install/mp_utils/share/mp_utils/package.xml
+[2.302s] Invoked command in '/home/aravind/mp_ws/build/mp_utils' returned '0': CMAKE_PREFIX_PATH=/home/aravind/mp_ws/install/mp_msgs:/home/aravind/mp_ws/install/mp_utils:/home/aravind/mp_ws/install/mp_moveit:/home/aravind/mp_ws/install/mp_description:/home/aravind/mp_ws/install/mp_controller:/home/aravind/mp_ws/install/mp_aruco_estimation:/opt/ros/humble /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_utils

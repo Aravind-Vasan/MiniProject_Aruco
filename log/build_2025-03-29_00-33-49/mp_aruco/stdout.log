@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/mp_aruco/mp_aruco.egg-info/PKG-INFO
+writing dependency_links to ../../build/mp_aruco/mp_aruco.egg-info/dependency_links.txt
+writing entry points to ../../build/mp_aruco/mp_aruco.egg-info/entry_points.txt
+writing requirements to ../../build/mp_aruco/mp_aruco.egg-info/requires.txt
+writing top-level names to ../../build/mp_aruco/mp_aruco.egg-info/top_level.txt
+reading manifest file '../../build/mp_aruco/mp_aruco.egg-info/SOURCES.txt'
+writing manifest file '../../build/mp_aruco/mp_aruco.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mp_aruco/marker_detector.py -> /home/aravind/mp_ws/build/mp_aruco/build/lib/mp_aruco
+running install
+running install_lib
+copying /home/aravind/mp_ws/build/mp_aruco/build/lib/mp_aruco/marker_detector.py -> /home/aravind/mp_ws/install/mp_aruco/lib/python3.10/site-packages/mp_aruco
+byte-compiling /home/aravind/mp_ws/install/mp_aruco/lib/python3.10/site-packages/mp_aruco/marker_detector.py to marker_detector.cpython-310.pyc
+running install_data
+copying package.xml -> /home/aravind/mp_ws/install/mp_aruco/share/mp_aruco
+running install_egg_info
+removing '/home/aravind/mp_ws/install/mp_aruco/lib/python3.10/site-packages/mp_aruco-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/mp_aruco/mp_aruco.egg-info to /home/aravind/mp_ws/install/mp_aruco/lib/python3.10/site-packages/mp_aruco-0.0.0-py3.10.egg-info
+running install_scripts
+Installing marker_detector script to /home/aravind/mp_ws/install/mp_aruco/lib/mp_aruco
+writing list of installed files to '/home/aravind/mp_ws/build/mp_aruco/install.log'

@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/mp_aruco/mp_aruco.egg-info
+writing ../../build/mp_aruco/mp_aruco.egg-info/PKG-INFO
+writing dependency_links to ../../build/mp_aruco/mp_aruco.egg-info/dependency_links.txt
+writing entry points to ../../build/mp_aruco/mp_aruco.egg-info/entry_points.txt
+writing requirements to ../../build/mp_aruco/mp_aruco.egg-info/requires.txt
+writing top-level names to ../../build/mp_aruco/mp_aruco.egg-info/top_level.txt
+writing manifest file '../../build/mp_aruco/mp_aruco.egg-info/SOURCES.txt'
+reading manifest file '../../build/mp_aruco/mp_aruco.egg-info/SOURCES.txt'
+writing manifest file '../../build/mp_aruco/mp_aruco.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aravind/mp_ws/build/mp_aruco/build
+creating /home/aravind/mp_ws/build/mp_aruco/build/lib
+creating /home/aravind/mp_ws/build/mp_aruco/build/lib/mp_aruco
+copying mp_aruco/__init__.py -> /home/aravind/mp_ws/build/mp_aruco/build/lib/mp_aruco
+running install
+running install_lib
+creating /home/aravind/mp_ws/install/mp_aruco/lib/python3.10/site-packages/mp_aruco
+copying /home/aravind/mp_ws/build/mp_aruco/build/lib/mp_aruco/__init__.py -> /home/aravind/mp_ws/install/mp_aruco/lib/python3.10/site-packages/mp_aruco
+byte-compiling /home/aravind/mp_ws/install/mp_aruco/lib/python3.10/site-packages/mp_aruco/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/aravind/mp_ws/install/mp_aruco/share/ament_index
+creating /home/aravind/mp_ws/install/mp_aruco/share/ament_index/resource_index
+creating /home/aravind/mp_ws/install/mp_aruco/share/ament_index/resource_index/packages
+copying resource/mp_aruco -> /home/aravind/mp_ws/install/mp_aruco/share/ament_index/resource_index/packages
+copying package.xml -> /home/aravind/mp_ws/install/mp_aruco/share/mp_aruco
+running install_egg_info
+Copying ../../build/mp_aruco/mp_aruco.egg-info to /home/aravind/mp_ws/install/mp_aruco/lib/python3.10/site-packages/mp_aruco-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/aravind/mp_ws/build/mp_aruco/install.log'

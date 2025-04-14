@@ -1,0 +1,30 @@
+[1.471s] Invoking command in '/home/aravind/mp_ws/build/mp_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aravind/mp_ws/install/mp_aruco_estimation:/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_moveit -- -j12 -l12
+[1.719s] Invoked command in '/home/aravind/mp_ws/build/mp_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aravind/mp_ws/install/mp_aruco_estimation:/opt/ros/humble /usr/bin/cmake --build /home/aravind/mp_ws/build/mp_moveit -- -j12 -l12
+[1.738s] Invoking command in '/home/aravind/mp_ws/build/mp_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aravind/mp_ws/install/mp_aruco_estimation:/opt/ros/humble /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_moveit
+[1.814s] -- Install configuration: ""
+[1.815s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/launch
+[1.815s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/launch/moveit.launch.py
+[1.815s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/config
+[1.816s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/config/joint_limits.yaml
+[1.822s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/config/initial_positions.yaml
+[1.823s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/config/mp.srdf
+[1.824s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/config/pilz_cartesian_limits.yaml
+[1.824s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/config/kinematics.yaml
+[1.825s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/config/moveit.rviz
+[1.831s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/config/moveit_controller.yaml
+[1.833s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/ament_index/resource_index/package_run_dependencies/mp_moveit
+[1.834s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/ament_index/resource_index/parent_prefix_path/mp_moveit
+[1.834s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/environment/ament_prefix_path.sh
+[1.834s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/environment/ament_prefix_path.dsv
+[1.834s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/environment/path.sh
+[1.835s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/environment/path.dsv
+[1.835s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/local_setup.bash
+[1.835s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/local_setup.sh
+[1.836s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/local_setup.zsh
+[1.838s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/local_setup.dsv
+[1.838s] -- Installing: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/package.dsv
+[1.839s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/ament_index/resource_index/packages/mp_moveit
+[1.839s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/cmake/mp_moveitConfig.cmake
+[1.841s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/cmake/mp_moveitConfig-version.cmake
+[1.845s] -- Up-to-date: /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/package.xml
+[2.000s] Invoked command in '/home/aravind/mp_ws/build/mp_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aravind/mp_ws/install/mp_aruco_estimation:/opt/ros/humble /usr/bin/cmake --install /home/aravind/mp_ws/build/mp_moveit

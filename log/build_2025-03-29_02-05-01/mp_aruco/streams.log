@@ -1,0 +1,21 @@
+[0.564s] Invoking command in '/home/aravind/mp_ws/src/mp_aruco': PYTHONPATH=/home/aravind/mp_ws/build/mp_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aravind/mp_ws/install/mp_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mp_aruco build --build-base /home/aravind/mp_ws/build/mp_aruco/build install --record /home/aravind/mp_ws/build/mp_aruco/install.log --single-version-externally-managed install_data
+[0.729s] running egg_info
+[0.730s] writing ../../build/mp_aruco/mp_aruco.egg-info/PKG-INFO
+[0.730s] writing dependency_links to ../../build/mp_aruco/mp_aruco.egg-info/dependency_links.txt
+[0.730s] writing entry points to ../../build/mp_aruco/mp_aruco.egg-info/entry_points.txt
+[0.730s] writing requirements to ../../build/mp_aruco/mp_aruco.egg-info/requires.txt
+[0.731s] writing top-level names to ../../build/mp_aruco/mp_aruco.egg-info/top_level.txt
+[0.732s] reading manifest file '../../build/mp_aruco/mp_aruco.egg-info/SOURCES.txt'
+[0.732s] writing manifest file '../../build/mp_aruco/mp_aruco.egg-info/SOURCES.txt'
+[0.733s] running build
+[0.733s] running build_py
+[0.733s] running install
+[0.733s] running install_lib
+[0.734s] running install_data
+[0.734s] running install_egg_info
+[0.736s] removing '/home/aravind/mp_ws/install/mp_aruco/lib/python3.10/site-packages/mp_aruco-0.0.0-py3.10.egg-info' (and everything under it)
+[0.736s] Copying ../../build/mp_aruco/mp_aruco.egg-info to /home/aravind/mp_ws/install/mp_aruco/lib/python3.10/site-packages/mp_aruco-0.0.0-py3.10.egg-info
+[0.737s] running install_scripts
+[0.753s] Installing marker_detector script to /home/aravind/mp_ws/install/mp_aruco/lib/mp_aruco
+[0.754s] writing list of installed files to '/home/aravind/mp_ws/build/mp_aruco/install.log'
+[0.778s] Invoked command in '/home/aravind/mp_ws/src/mp_aruco' returned '0': PYTHONPATH=/home/aravind/mp_ws/build/mp_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aravind/mp_ws/install/mp_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mp_aruco build --build-base /home/aravind/mp_ws/build/mp_aruco/build install --record /home/aravind/mp_ws/build/mp_aruco/install.log --single-version-externally-managed install_data

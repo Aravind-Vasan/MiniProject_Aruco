@@ -1,0 +1,3 @@
+[console_scripts]
+marker_detector = mp_aruco.marker_detector:main
+

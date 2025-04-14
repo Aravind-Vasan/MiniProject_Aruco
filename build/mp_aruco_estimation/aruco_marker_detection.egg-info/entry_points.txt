@@ -1,0 +1,4 @@
+[console_scripts]
+marker_detector = aruco_marker_detection.marker_detector:main
+marker_pose_estimation = aruco_marker_detection.marker_pose_estimation:main
+

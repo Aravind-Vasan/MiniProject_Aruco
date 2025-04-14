@@ -1,3 +1,4 @@
+/home/aravind/mp_ws/install/mp_description/share/mp_description/meshes/pi_camera.STL
 /home/aravind/mp_ws/install/mp_description/share/mp_description/meshes/mp_gripperlink1.STL
 /home/aravind/mp_ws/install/mp_description/share/mp_description/meshes/mp_link4.STL
 /home/aravind/mp_ws/install/mp_description/share/mp_description/meshes/mp_gripper.STL

@@ -4,6 +4,7 @@
 /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/config/mp.srdf
 /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/config/pilz_cartesian_limits.yaml
 /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/config/kinematics.yaml
+/home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/config/moveit.rviz
 /home/aravind/mp_ws/install/mp_moveit/share/mp_moveit/config/moveit_controller.yaml
 /home/aravind/mp_ws/install/mp_moveit/share/ament_index/resource_index/package_run_dependencies/mp_moveit
 /home/aravind/mp_ws/install/mp_moveit/share/ament_index/resource_index/parent_prefix_path/mp_moveit
